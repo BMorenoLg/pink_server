@@ -7,38 +7,282 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    <link href="css/all.css" rel="stylesheet"> 
+    <link href="css/style.css" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Raleway:wght@200;300;400;500&display=swap" rel="stylesheet"> 
     <title>Pink Server</title>
   </head>
-  <body>
+  <body  data-spy="scroll" data-target="#navbar-spy" data-offset="0">
     <header>
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="navbar-spy">
         <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
+          
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <li class="hidden active">
+                <a href="#page-top"></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#blog">Latest Project</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#about">historia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="#team">team</a>
               </li>
+              <li class="nav-item">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portafolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-us">Contact</a>
+              </li>
+              
             </ul>
           </div>
         </div>
       </nav>
+      <div id="carouselControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-image: url(img/banner-3.jpg)">
+          </div>
+          <div class="carousel-item" style="background-image: url(img/banner-2.jpg)">
+          </div>
+        </div>
+        <ol class="carousel-indicators">
+        <li data-target="#carouselControls" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselControls" data-slide-to="1"></li>
+      </ol>
+      </div>
     </header>
 
+
+    <section class="latest-porject" id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h4 class="section-name fade-animate hide-el show-el animated fadeInUp full-visible">Latest project
+          </div>
+          <div class="col-md-6">
+            <h2>The enchanted forest</h2>
+            <h4 class="blog-title">may 2020</h4>
+            <p class="blog-text">We launched three years ago and loved it every second. At the time I was just a man with an ideea but 2 weeks later I was a man with a plan. We jumped on this adventure and learned a lot along the way. Two days after launching we had our first client. In what we do, being creative is crucial. And we love the moments when we have to make our brain work and produce new, crazy, beautiful ideas.</p>
+            <a href="" class="btn btn-primary">Leer más</a>
+          </div>
+          <div class="col-md-6 blog-image-cell"><div class="blog-image" style="background-image: url(img/stuff-1.jpg)"></div></div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12"><h4>Nuestra historia</h4></div>
+          <h2>once upon a time</h2>
+          <div class="about-text">
+            <p>We launched three years ago and loved it every second. At the time
+              I was just a man with an ideea but 2 weeks later I was a man with a plan. We jumped on this
+              adventure and learned a lot along the way. Two days after launching we had our first client. In
+              what we do, being creative is crucial. And we love the moments when we have to make our brain
+              work and produce new, crazy, beautiful ideas.</p>
+            <p>We launched three years ago and loved it every second. At the time
+              I was just a man with an ideea but 2 weeks later I was a man with a plan. We jumped on this
+              adventure and learned a lot along the way. Two days after launching we had our first client. In
+              what we do, being creative is crucial. And we love the moments when we have to make our brain
+              work and produce new, crazy, beautiful ideas.
+              We launched three years ago and loved it every second. At the time
+              I was just a man with an ideea but 2 weeks later I was a man with a plan. We jumped on this
+              adventure and learned a lot along the way. Two days after launching we had our first client. In
+              what we do, being creative is crucial. And we love the moments when we have to make our brain
+              work and produce new, crazy, beautiful ideas. We launched three years ago and loved it every second. At the
+              time
+              I was just a man with an ideea but 2 weeks later I was a man with a plan. We jumped on this
+              adventure and learned a lot along the way.</p>
+            <p>We launched three years ago and loved it every second. At the time
+              I was just a man with an ideea but 2 weeks later I was a man with a plan. We jumped on this
+              adventure and learned a lot along the way. Two days after launching we had our first client. In
+              what we do, being creative is crucial. And we love the moments when we have to make our brain
+              work and produce new, crazy, beautiful ideas. Two days after launching we had our first client.</p>
+            <!-- <div class="about-separator"></div>
+            <ul class="list-unstyled">
+              <li>Years on the market: 3</li>
+              <li>Team members: 12</li>
+              <li>Happy clients: 47</li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="text-team">
+              <h2>Conoce al equipo</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos. Est blanditiis dolorem culpa incidunt minus dignissimos.</p>
+            </div>
+            </div>
+          <div class="col-md-7 gallery-team">
+            <div class="box-team">
+              <div class="img-team" style="background-image: url(img/astrid-oliva.jpg)"></div>
+              <h5>Astrid Oliva</h5>
+              <span>Diseñadora Gráfica</span>
+            </div>
+            <div class="box-team">
+              <div class="img-team" style="background-image: url(img/laura-basto.jpg)"></div>
+              <h5>Laura Basto</h5>
+              <span>Diseñadora Web</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="quote">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h4>Inspiracion del mes</h4>
+            <div class="quote-separator"></div>
+            <blockquote>"If the sight of the blue skies fills you with joy, if a blade of grass springing up in the fields has power to move you, if the simple things of nature have a message that you understand, rejoice, for your soul is alive."
+              <footer class="quote-footer">Eleonora Duse</footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>        
+    </section>
+
+    <section id="services">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-12"> <h4>Servicios</h4> </div>
+
+          <div class="col-md-6">
+
+            <div class="service-img"><img src="img/services.png" alt=""></div>
+          </div>
+
+          <div class="col-md-6">
+
+            <div class="service-item">
+
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-code-slash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0zm-.999-3.124a.5.5 0 0 1 .33.625l-4 13a.5.5 0 0 1-.955-.294l4-13a.5.5 0 0 1 .625-.33z"/>
+              </svg>
+              <div class="service-text">
+                <h4>Desarrollo Web</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus</p>
+              </div>
+            </div> 
+            <div class="service-item">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-square-text-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.5a1 1 0 0 0-.8.4l-1.9 2.533a1 1 0 0 1-1.6 0L5.3 12.4a1 1 0 0 0-.8-.4H2a2 2 0 0 1-2-2V2zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5z"/>
+            </svg>
+
+              <div class="service-text">
+                <h4>Comunity Manager</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus</p> 
+              </div>
+            </div>
+
+
+            <div class="service-item">
+
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-pencil-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456l-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+              </svg>
+
+              <div class="service-text">
+                <h4>Diseño Grafico</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus</p> 
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h4>Contacto</h4>
+          </div>
+          <div class="col-md-6  offset-3">
+            <h2>Escribenos</h2>
+            <form action="">
+              <input type="text" placeholder="Nombre">
+              <input type="text" placeholder="Email">
+              <input type="text" placeholder="Subject">
+              <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="img/logo.png" alt="">
+          </div>
+          <div class="col-md-5 offset-1 address">
+            <div class="item-footer">
+
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                <path fill-rule="evenodd" d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+              </svg>
+              <p>Mérida, Yucatán</p>
+            </div>
+
+            <div class="item-footer">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+              </svg>
+              <p>9999-99-99-99</p>
+            </div>  
+            <div class="item-footer">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+              </svg>  
+              <p>pink.server2020@gmail</p>
+            </div>  
+
+          </div>
+
+          <div class="col-md-3">
+            <div class="social">
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
